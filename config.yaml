@@ -1,0 +1,15 @@
+settings:
+    album_lookup_limit: 10           # Number of albums searched for in one run, 0 = no limit
+    artist_lookup_limit: 10          # Number of artists searched for in one run, 0 = no limit
+    chrome_path:                # path to chrome browser executable
+    chromedriver_path:          # path to chromedriver executable
+lastfmAPI:
+    lastfm_api_key: 
+    lastfm_api_secret: 
+plexAPI:
+    plex_username: 
+    plex_password: 
+    plex_servername: 
+    plex_libraryname: 
+database:
+    path: db/plex-music-agent.db       # full path to database file (.db)
